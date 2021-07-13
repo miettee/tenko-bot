@@ -25,7 +25,7 @@ class imagecmds(commands.Cog):
         self.log(ctx.message.content, ctx.author.name, ctx.guild.name, ctx.channel.name)
 
         my_files = []
-        for i in range(1, 162):
+        for i in range(1, 162): #nb range limits cant go beyond how many files you compile
             my_files.append(
                 discord.File(f"{self.cursed_dir}{i}.jpg"))
         for i in range(1, 96):
