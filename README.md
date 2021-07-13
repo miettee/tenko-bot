@@ -1,2 +1,2 @@
 # tenko-bot
-tenko bot on discord's code
+tenko bot code!! very fun!
